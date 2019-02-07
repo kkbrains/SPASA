@@ -1,0 +1,128 @@
+html {
+    width: 100%;
+	height: 100%;
+	min-width: 320px;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	width: 100%;
+	height: 100%;
+	min-width: 320px;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	-moz-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-ms-font-smoothing: antialiased;	
+}
+* {
+	cursor: default;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+	vertical-align: bottom;
+}
+strong {
+	font-weight: 700;
+}
+ul {
+	list-style: none;
+}
+a {
+	outline: none;
+	text-decoration: none;
+}
+a, 
+a *, 
+button, 
+select,
+input[type=button],
+input[type=submit] {
+	cursor: pointer;
+	@include transition(all, 200ms);
+}
+button, 
+input[type=button], 
+input[type=submit], 
+select, 
+textarea {
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+}
+input[type=text], 
+input[type=email],  
+input[type=tel], 
+input[type=url], 
+textarea {
+	cursor: text;
+	user-select: auto !important;
+	-moz-user-select: auto !important;
+	-webkit-user-select: auto !important;
+	-ms-user-select: auto !important;
+}
+input, 
+select, 
+textarea, 
+button {
+	outline: none;
+}
+select {
+	option {
+		font-weight: inherit;
+		font-size: inherit;
+	}
+}
+select::-ms-expand {
+    display: none;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+input[type=submit], 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+    -moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+    margin: 0;
+}
+textarea {
+	overflow: auto;
+}
+:-moz-placeholder {
+	color: inherit;
+	opacity: 1;
+}
+::-moz-placeholder {
+	color: inherit;
+	opacity: 1;
+}
+::-webkit-input-placeholder {
+	color: inherit;
+}
+:-ms-input-placeholder {
+	color: inherit;
+}
+::-ms-input-placeholder {
+	color: inherit;
+}
+button::-moz-focus-inner, 
+input[type=submit]::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}

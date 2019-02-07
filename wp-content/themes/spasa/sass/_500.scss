@@ -1,0 +1,323 @@
+@media (max-width: 499px) {
+
+	/* Header *******************************************************************/
+	
+	.header,  
+	.template-front-page .header  {
+		height: 70px;
+		padding: 10px 0;
+		.logo {
+			float: none;
+			margin: 0;
+			img,
+			svg {
+				width: 110px;
+				height: 50px;
+				margin: 0;
+			}
+		}
+		.menu {
+			.navigation {
+				li {
+					a {
+						padding: 16px 60px 14px 5px;
+					}
+				}
+			}
+			.account {
+				li:first-of-type, 
+				li:last-of-type {
+					a {
+						font-size: 15px;
+					}
+				}
+			}
+		}
+	}
+	
+	/* Home hero *******************************************************************/
+	
+	.home-hero {
+		padding: 135px 20px 100px;
+		.center {
+			.block {
+				max-width: 100%;
+				text-align: center;
+				h1 {
+					font-size: 28px;
+					line-height: 32px;
+				}
+				p {
+					margin: 0 auto 20px;
+				}
+			}
+			.block:after {
+				left: -20px;
+				right: -20px;
+			}
+		}
+		.scroll {
+			height: 32px;
+			font-size: 0;
+			background-size: 16px 10px;
+		}
+	}
+	
+	/* Home content *******************************************************************/
+	
+	.home-review, 
+	.home-winners {
+		font-size: 20px;
+		line-height: 25px;
+		.center {
+			padding: 32px 0 30px;
+		}
+	}
+	
+	/******************/
+	
+	.home-columns {
+		.column {
+			img.alignright {
+				float: right;
+			}
+		}
+		.awards {
+			padding: 0 0 40px;
+			img {
+				width: 76px;
+				margin: 0 15px;
+			}
+		}
+	}
+	
+	/* Member dashboard *******************************************************************/
+	
+	.content {
+		.payment-options {
+			.westpac {
+				max-width: 250px;
+				margin: 0 auto;
+			}
+			.options {
+				button.offline, 
+				button.online {
+					width: 100%;
+					margin: 0 0 15px;
+				}
+				.separator {
+					display: none;
+				}
+				img {
+					margin: 25px auto 10px;
+				}
+			}
+		}
+	}
+	
+	/* Select category *******************************************************************/
+		
+	.content {
+		.category-info {
+			.category-list {
+				tr {
+					.number {
+						padding: 16px 20px 14px 0;
+					}
+					.title {
+						padding: 16px 0 14px;
+					}
+					.enter {
+						padding: 16px 0 14px 20px;
+					}
+				}
+			}
+		}
+	}
+	
+	/* Judge dashboard *******************************************************************/
+	
+	.content {
+		.judge-dashboard {
+			padding: 0;
+			h3 {
+				margin: 0;
+			}
+			.judge-entry-table {
+				display: block !important;
+				width: 100%;
+				margin: 0 0 20px;
+				tbody {
+					display: block;
+					width: 100%;
+				}
+				tr {
+					display: block;
+					width: 100%;
+					th {
+						display: none;
+					}
+					td {
+						display: block;
+						width: 100%;
+						border: none;
+					}
+					td.member {
+						width: 100%;
+						padding: 20px 0 0;
+					}
+					td.score {
+						width: 100%;
+						padding: 15px 0;
+					}
+					td.action {
+						width: 100%;
+						border-bottom: 1px #ddd solid;
+						padding: 0 0 18px;
+						text-align: left;
+					}
+					td:before {
+						font: 700 14px/18px Krub, sans-serif;
+						color: #222;
+						margin: 0 4px 0 0;
+					}
+					td.member:before {
+						content: 'Member ';
+					}
+					td.score:before {
+						display: block;
+						content: 'Your Score ';
+						margin: 0 0 12px;
+					}
+					td.action:before {
+						content: 'Action ';
+					}
+				}
+				tr:first-of-type {
+					display: none;
+				}
+			}
+		}
+	}
+	
+	/* View / Judge entries *******************************************************************/
+	
+	.content {
+		.view-content {
+			.value {
+				ol.supporting-photos {
+					li {
+						width: 25%;
+					}
+				}
+			}
+		}
+		.judge-score {
+			.update-score {
+				padding: 22px 20px 18px;
+				.score-details {
+					padding: 0;
+					margin: 0 0 14px;
+					h3 {
+						padding: 0 100px 0 0;
+						font-size: 20px;
+						line-height: 25px;
+						.stars {
+							display: block;
+							margin: 8px 0 12px;
+						}
+					}
+					.number {
+						left: auto;
+						right: 0;
+						width: 85px;
+						height: 58px;
+						padding: 12px 0 0;
+						font-size: 34px;
+						line-height: 36px;
+					}
+				}
+			}
+		}
+	}
+	
+	/* Pay Online *******************************************************************/
+	
+	.content.payment-form {
+		margin: 15px auto 0;
+		.secure-payment-form {
+			padding: 0;
+			border: none;
+			@include box-shadow(none);
+			margin: 0 auto 30px;
+			button {
+				span {
+					display: none;
+				}
+			}
+			.westpac {
+				max-width: 250px;
+				text-align: center;
+				margin: 0 auto;
+				img {
+					display: block;
+					float: none;
+					margin: 0 auto 10px;
+				}
+			}
+		}
+	}
+	
+	/* Review / Winners *******************************************************************/
+	
+	.content {
+		.review, 
+		.winners {
+			.category {
+				ol {
+					li {
+						margin: 0 0 25px;
+						.image {
+							height: 100px;
+							img {
+								max-height: 100px;
+							}
+						}
+						.logo {
+							height: 90px;
+							img {
+								max-width: 90px;
+								max-height: 60px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	/* Lightbox *******************************************************************/
+	
+	.judging-criteria {
+		table {
+			display: block;
+			border: 15px #fff solid;
+			tr {
+				display: block;
+				th,
+				td {
+					display: block;
+					width: auto;
+				}
+				th {
+					padding: 20px 0 10px;
+				}
+				td {
+					border: none;
+					padding: 0 0 18px;
+				}
+			}
+		}
+	}
+
+}

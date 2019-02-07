@@ -1,0 +1,32 @@
+<?php
+	$fields = array(
+		'state' => 'select',
+		'project-name' => 'text',
+		'project-date' => 'date',
+		'architect-designer-home-builder' => 'text',
+		'photographer' => 'text',
+		'resident-owner-declaration' => 'checkbox',
+		'main-photo' => 'file',
+		'supporting-photos' => 'multifile',
+		'before-photo' => 'file',
+		'shape' => 'text',
+		'length' => 'text',
+		'width' => 'text',
+		'price' => 'text',
+		'internal-finish' => 'text',
+		'coping-materials' => 'text',
+		'pump' => 'text',
+		'filter' => 'text',
+		'heating-system' => 'text',
+		'type-cleaner' => 'text',
+		'sanitation' => 'text',
+		'chlorinator' => 'text',
+		'other-equipment-accessories' => 'text',
+		'description' => 'textarea',
+		// 'display-centre-specifics' => 'textarea',
+		// 'innovation-specifics' => 'textarea',
+		// 'sustainability-specifics' => 'textarea',
+		// 'safety-barrier-specifics' => 'textarea',
+		'promotional-blurb' => 'textarea'
+	);
+?>

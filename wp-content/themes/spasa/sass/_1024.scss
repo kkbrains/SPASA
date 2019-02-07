@@ -1,0 +1,541 @@
+@media (max-width: 1023px) {
+
+	body {
+		padding: 90px 0 0;
+		font-size: 14px;
+		line-height: 18px;
+	}
+	
+	/* Basis *******************************************************************/
+	
+	.center {
+		width: 700px;
+	}
+	
+	/* Header *******************************************************************/
+	
+	.header {
+		height: 90px;
+		padding: 15px 0;
+		.logo {
+			margin: 0 45px 0 0;
+			img,
+			svg {
+				width: 132px;
+				height: 60px;
+			}
+		}
+		.menu {
+			.navigation {
+				padding: 14px 0 0;
+				li {
+					margin: 0 20px 0 0;
+				}
+				li:first-of-type {
+					display: none;
+				}
+			}
+			.account {
+				padding: 10px 0 0;
+				li {
+					a {
+						height: 40px;
+						padding: 11px 0;
+					}
+				}
+				li:first-of-type {
+					a {
+						width: 95px;
+					}
+				}
+				li:last-of-type {
+					a {
+						width: 90px;
+					}
+				}
+			}
+		}
+	}
+	
+	/* Home hero *******************************************************************/
+	
+	.home-hero {
+		padding: 140px 0 200px;
+		.center {
+			.block {
+				width: 350px;
+				h1 {
+					font-size: 45px;
+					line-height: 50px;
+				}
+				ul {
+					li {
+						a {
+							height: 45px;
+							padding: 14px 20px;
+						}
+					}
+					li:first-of-type {
+						a {
+							min-width: 115px;
+						}
+					}
+					li:last-of-type {
+						a {
+							min-width: 105px;
+						}
+					}
+				}
+			}
+			.block:after {
+				top: -35px;
+				bottom: -35px;
+			}
+		}
+	}
+	
+	/* Page intro *******************************************************************/
+	
+	.page-intro {
+		.center {
+			height: auto;
+			padding: 35px 0 20px;
+			.text {
+				width: auto;
+				h1 {
+					font-size: 22px;
+					line-height: 26px;
+					margin: 0 0 10px;
+				}
+				p {
+					max-height: 1000px;
+					min-height: 20px;
+					line-height: 20px;
+					margin: 0 0 10px;
+				}
+			}
+		}
+	}
+	
+	/* Main content *******************************************************************/
+	
+	.content {
+		margin: 45px auto;
+		.main {
+			width: 100%;
+			margin: 0 0 20px;
+		}
+		.main.narrow {
+			padding: 0;
+		}
+		.sidebar {
+			width: 100%;
+		}
+		h2 {
+			font-size: 16px;
+			line-height: 22px;
+			margin: 0 0 20px;
+		}
+		h3 {
+			font-size: 15px;
+			line-height: 20px;
+			margin: 0 0 20px;
+		}
+		p {
+			margin: 0 0 20px;
+		}
+		ul, 
+		ol {
+			margin: 0 0 20px;
+		}
+	}
+
+	/* Home content *******************************************************************/
+	
+	.home-intro {
+		padding: 45px 0 15px;
+		h2 {
+			font-size: 22px;
+			line-height: 26px;
+		}
+	}
+	
+	/******************/
+	
+	.home-columns {
+		display: block;
+		.column {
+			border: none;
+			border-top: 1px #ccc solid;
+			padding: 30px 0 15px;
+			width: auto;
+			margin: 0;
+			background: none;
+			@include box-shadow(none);
+			h3 {
+				font-size: 16px;
+				line-height: 22px;
+			}
+			img.alignright {
+				max-width: 55px;
+				margin: -10px 0 5px 75px;
+			}
+		}
+		.awards {
+			padding: 20px 0 50px;
+			img {
+				width: 120px;
+				margin: 0 20px;
+			}
+		}
+	}
+	.home-columns:after {
+		display: none
+	}
+	
+	/******************/
+	
+	.home-account {
+		padding: 38px 0;
+		.text {
+			width: 400px;
+		}
+		.account {
+			li {
+				a {
+					padding: 12px 0;
+					font-size: 15px;
+				}
+			}
+		}
+	}
+	
+	/* Forms *******************************************************************/
+	
+	.content {
+		form {
+			.columns-2, 
+			.columns-3 {
+				display: block;
+				margin: 0;
+				h2, 
+				p {
+					margin: 0 0 15px 0;
+				}
+			}
+			.columns-2, 
+			.columns-3 {
+				h2, 
+				p {
+					width: auto;
+				}
+			}
+			input[type=text], 
+			input[type=email], 
+			input[type=tel], 
+			input[type=url], 
+			input[type=date], 
+			input[type=password], 
+			select {
+				height: 45px;
+			}
+			input[type=date] {
+				background-position: 100% -3px;
+			}
+			input[type=date]:hover {
+				background-position: 100% -51px;
+			}
+			.file-uploads {
+				label {
+					.file {
+						height: 45px;
+						background-position: 100% -3px;
+					}
+					.file:hover {
+						background-position: 100% -51px;
+					}
+				}
+				input[type=file] {
+					position: absolute;
+					left: -5000px;
+					opacity: 0;
+				}
+			}
+			input[type=submit], 
+			button {
+				min-width: 120px;
+				height: 45px;
+			}
+		}
+	}
+	
+	/* Events *******************************************************************/
+	
+	.content {
+		ul.events {
+			margin: 0 -20px 20px 0;
+			li {
+				width: 340px;
+			}
+		}
+	}
+	
+	/* FAQs *******************************************************************/
+	
+	.faqs {
+		.col-1, 
+		.col-2 {
+			float: none;
+			width: auto;
+		}
+	}
+	
+	/* Contact *******************************************************************/
+	
+	.map {
+		height: 320px;
+	}
+	
+	/* Log in form *******************************************************************/
+	
+	.content {
+		.sidebar {
+			form {
+				h2 {
+					display: none;
+				}
+			}
+		}
+	}
+	
+	/* Member dashboard *******************************************************************/
+	
+	.content {
+		.dashboard-header {
+			padding: 5px 300px 20px 0;
+			a {
+				padding: 14px 0;
+				margin: -12px 0 0;
+			}
+		}
+		.member-entry-table {
+			tr {
+				td.status {
+					white-space: normal;
+					.unpaid, 
+					.paid {
+						margin: 0;
+					}
+					.paid:before {
+						display: none;
+					}
+				}
+				td.action {
+					white-space: normal;
+				}
+			}
+		}
+		.payment-options {
+			.westpac {
+				width: 265px;
+			}
+			.options {
+				width: 435px;
+				button.offline {
+					width: 120px;
+					min-width: 120px;
+				}
+				button.online {
+					width: 215px;
+					span {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	
+	/* Tabs *******************************************************************/
+	
+	.content {
+		ul.tabs {
+			li {
+				a {
+					font-size: 14px;
+					line-height: 18px;
+				}
+			}
+		}
+	}
+	
+	/* View / Judge entries *******************************************************************/
+	
+	.content {
+		.judge-score {
+			.update-score {
+				width: 100%;
+			}
+			.banner {
+				display: none;
+			}
+		}
+	}
+	
+	/* Pay Offline *******************************************************************/
+	
+	.content {
+		.payment-details {
+			min-height: 0;
+		}
+	}
+	
+	/* Pay Online *******************************************************************/
+	
+	.content.payment-form {
+		margin: 25px auto;
+		.secure-payment-form {
+			margin: 0 auto 50px;
+			.columns-2 {
+				display: block;
+				margin: 0;
+				h2, 
+				p {
+					margin: 0 0 15px 0;
+				}
+			}
+			.columns-2 {
+				h2, 
+				p {
+					width: auto;
+				}
+			}
+		}
+	}
+	
+	/* View / Judge entries *******************************************************************/
+	
+	.content {
+		.view-content {
+			.value {
+				ol.supporting-photos {
+					margin: 8px -15px 10px 0;
+					li {
+						padding: 0 15px 15px 0;
+					}
+				}
+			}
+		}
+	}
+	
+	/* Review / Winners *******************************************************************/
+	
+	.content {
+		form.winners-state {
+			margin: 0 0 25px;
+			select {
+				margin: 0;
+			}
+		}
+		.review, 
+		.winners {
+			.category {
+				.intro {
+					padding: 0 0 35px;
+				}
+				.intro.sponsored {
+					padding: 0 225px 35px 0;
+					.sponsor {
+						width: 200px;
+						height: 75px;
+						margin: -60px 0 0;
+						img {
+							max-width: 150px;
+							max-height: 75px;
+						}
+					}
+				}
+				ol {
+					margin: 0 -20px 0 0;
+					li {
+						padding: 0 20px 0 0;
+						margin: 0 0 40px;
+						.image {
+							height: 145px;
+							img {
+								max-height: 145px;
+							}
+						}
+						.logo {
+							height: 130px;
+							img {
+								max-width: 150px;
+								max-height: 75px;
+							}
+						}
+						.title {
+							padding: 72px 0 0;
+							.award {
+								width: 65px;
+								height: 60px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	/* Banners *******************************************************************/
+	
+	.banners, 
+	.content .banners {
+		li, 
+		li:last-of-type {
+			a {
+				height: auto;
+				padding: 24px 25px 20px;
+				.title {
+					display: block;
+					margin: 0 0 4px;
+				}
+				.title, 
+				.action {
+					position: static;
+				}
+			}
+		}
+	}
+	
+	/******************/
+	
+	.content .banners.side, 
+	.banners.bottom {
+		display: flex;
+		margin: 0 -5px 30px;
+		li, 
+		li:last-of-type {
+			flex: 1;
+			padding: 0 5px;
+			width: 306px;
+		}
+	}
+	
+	/* Lightbox *******************************************************************/
+	
+	.judging-criteria {
+		table {
+			border: 25px #fff solid;
+		}
+	}
+	
+	/* Footer *******************************************************************/
+	
+	.footer {
+		p {
+			strong {
+				display: block;
+			}
+		}
+	}
+
+}

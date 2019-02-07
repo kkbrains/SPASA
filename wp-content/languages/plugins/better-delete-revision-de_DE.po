@@ -1,0 +1,155 @@
+# Translation of Plugins - Better Delete Revision - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Better Delete Revision - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-11-22 09:01:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Better Delete Revision - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.1e2.it/"
+msgstr "http://www.1e2.it/"
+
+#. Author of the plugin/theme
+msgid "Galerio & Urda"
+msgstr "Galerio & Urda"
+
+#. Description of the plugin/theme
+msgid "Better Delete Revision is based on the old \"Delete Revision\" plugin"
+msgstr "„Better Delete Revision“ basiert auf dem alten Plugin „Delete Revision“"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.1e2.it/tag/better-delete-revision/"
+msgstr "http://www.1e2.it/tag/better-delete-revision/"
+
+#: better-delete-revision.php:350
+msgid "FAQ"
+msgstr "FAQ"
+
+#: better-delete-revision.php:332 better-delete-revision.php:349
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: better-delete-revision.php:282
+msgid "Author:"
+msgstr "Autor:"
+
+#: better-delete-revision.php:279
+msgid "Thank you for using this plugin! I hope you enjoy it!"
+msgstr "Vielen Dank für die Verwendung dieses Plugins! Ich hoffe, es gefällt dir!"
+
+#: better-delete-revision.php:275
+msgid "The Better Delete Revision plugin is your #1 choice to quickly and easily removing revision from your Wordpress database. Try it out today to see what a lighter and smaller Wordpress database can do for you!"
+msgstr "Dieses Plugin ist die erste Wahl, um schnell und einfach Revisionen von Deiner WordPress-Datenbank zu entfernen. Probiere es heute aus um zu sehen, wie eine kleinere WordPress-Datenbank Dein System beschleunigen kann!"
+
+#: better-delete-revision.php:271
+msgid "Post Revisions are a feature introduced in Wordpress 2.6. Whenever you or Wordpress saves a post or a page, a revision is automatically created and stored in your Wordpress database. Each additional revision will slowly increase the size of your database. If you save a post or page multiple times, your number of revisions will greatly increase overtime. For example, if you have 100 posts and each post has 10 revisions you could be storing up to 1,000 copies of older data!"
+msgstr "Beitrags-Revisionen wurden als Eigenschaft seit WordPress 2.6 eingeführt. Jedes Mal, wenn du oder WordPress einen Beitrag oder eine Seite speicherst, wird eine Revision automatisch erstellt und in deiner WordPress-Datenbank gespeichert. Jede weitere Änderung wird die Größe der Datenbank langsam erhöhen. Wenn du einen Beitrag oder eine Seite mehrmals speicherst, wird die Anzahl der Revisionen erheblich anwachsen. Wenn du z. B. 100 Beiträge hast und jeder Beitrag 10 Revisionen enthält, werden bis zu 1000 Kopien älterer Beiträge gespeichert!"
+
+#: better-delete-revision.php:266
+msgid "Optimize Your Database"
+msgstr "Optimiere Deine Datenbank"
+
+#: better-delete-revision.php:265
+msgid "Check Revision Posts"
+msgstr "Beitrags-Revisionen überprüfen"
+
+#: better-delete-revision.php:258
+msgid "Optimize Wordpress Database"
+msgstr "WordPress-Datenbank optimieren"
+
+#: better-delete-revision.php:248
+msgid "red"
+msgstr "rot"
+
+#: better-delete-revision.php:247
+msgid "OK"
+msgstr "OK"
+
+#: better-delete-revision.php:246
+msgid "If all statuses are %s, then your database does not need any optimization! If any are %s, then click on the following button to optimize your Wordpress database."
+msgstr "Wenn alle Status %s sind, benötigt die Datenbank keine Optimierung! Wenn irgendein Status %s ist, dann klicke auf den folgenden Button, um Deine WordPress-Datenbank zu optimieren."
+
+#: better-delete-revision.php:208
+msgid "Status"
+msgstr "Status"
+
+#: better-delete-revision.php:207
+msgid "OP"
+msgstr "OP"
+
+#: better-delete-revision.php:206
+msgid "Table"
+msgstr "Tabelle"
+
+#: better-delete-revision.php:199
+msgid "Optimization of database completed!"
+msgstr "Datenbank komplett optimiert!"
+
+#: better-delete-revision.php:173
+msgid "Deleted %s revisions!"
+msgstr "%s Revisionen gelöscht!"
+
+#: better-delete-revision.php:147
+msgid "Great! You have no revisions now!"
+msgstr "Klasse, du hast zur Zeit keine Revisionen!"
+
+#: better-delete-revision.php:142
+msgid "No , I prefer to keep them!"
+msgstr "Nein, ich möchte sie lieber behalten!"
+
+#: better-delete-revision.php:141
+msgid "Yes , I would like to delete them! (A Total Of %s)"
+msgstr "Ja, ich möchte sie gerne löschen (Insgesamt %s)"
+
+#: better-delete-revision.php:137
+msgid "Would you like to remove the revision posts?"
+msgstr "Möchtest du die Beitrags-Revisionen entfernen?"
+
+#: better-delete-revision.php:123
+msgid "Last modified"
+msgstr "Letzte Änderung"
+
+#: better-delete-revision.php:122
+msgid "Post date"
+msgstr "Beitragsdatum"
+
+#: better-delete-revision.php:121
+msgid "Title"
+msgstr "Titel"
+
+#: better-delete-revision.php:120
+msgid "Id"
+msgstr "ID"
+
+#: better-delete-revision.php:106
+msgid "redundant post revisions have been removed!"
+msgstr "Überflüssige Beitrags-Revisionen wurden entfernt!"
+
+#: better-delete-revision.php:106
+msgid "Since you started using Better Delete Revision"
+msgstr "Seit du begonnen hast, mit Besser Delete Revision zu arbeiten"
+
+#: better-delete-revision.php:105
+msgid "posts"
+msgstr "Beiträge"
+
+#: better-delete-revision.php:105
+msgid "You have"
+msgstr "Du hast"
+
+#: better-delete-revision.php:103
+msgid "Better Delete Revision Manager"
+msgstr "Better Delete Revision Manager"
+
+#. #-#-#-#-#  tmp-better-delete-revision.pot (Better Delete Revision 1.6.1) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: better-delete-revision.php:38
+msgid "Better Delete Revision"
+msgstr "Better Delete Revision"

@@ -1,0 +1,456 @@
+@media (max-width: 1219px) {
+
+	body {
+		padding: 100px 0 0;
+		font-size: 15px;
+		line-height: 20px;
+	}
+	
+	/* Basis *******************************************************************/
+	
+	.center {
+		width: 960px;
+	}
+	
+	/* Header *******************************************************************/
+	
+	.header {
+		height: 100px;
+		padding: 15px 0;
+		.logo {
+			margin: 0 62px 0 0;
+			img,
+			svg {
+				width: 155px;
+				height: 70px;
+			}
+		}
+		.menu {
+			.navigation {
+				padding: 18px 0 0;
+				li {
+					margin: 0 32px 0 0;
+					a {
+						font-size: 15px;
+					}
+				}
+			}
+			.account {
+				padding: 12px 0 0;
+				li {
+					a {
+						padding: 13px 0;
+						font-size: 15px;
+					}
+				}
+				li:first-of-type {
+					a {
+						width: 115px;
+					}
+				}
+				li:last-of-type {
+					a {
+						width: 100px;
+					}
+				}
+			}	
+		}
+	}
+	
+	/* Home hero *******************************************************************/
+	
+	.home-hero {
+		padding: 160px 0 235px;
+		.center {
+			.block {
+				width: 380px;
+				h1 {
+					font-size: 60px;
+					line-height: 62px;
+				}
+				ul {
+					li {
+						a {
+							height: 50px;
+							padding: 16px 25px;
+						}
+					}
+					li:first-of-type {
+						a {
+							min-width: 145px;
+						}
+					}
+					li:last-of-type {
+						a {
+							min-width: 125px;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	/* Page intro *******************************************************************/
+	
+	.page-intro {
+		.center {
+			height: 220px;
+			.text {
+				width: 670px;
+				h1 {
+					font-size: 28px;
+					line-height: 32px;
+				}
+				p {
+					max-height: 110px;
+					min-height: 66px;
+					line-height: 22px;
+				}
+			}
+		}
+	}
+	
+	/* Main content *******************************************************************/
+	
+	.content {
+		margin: 55px auto;
+		.main {
+			width: 620px;
+		}
+		.main.narrow {
+			padding: 0 20px 0 0;
+		}
+		.sidebar {
+			width: 306px;
+		}
+	}
+
+	/* Home content *******************************************************************/
+	
+	.home-intro {
+		padding: 65px 0 35px;
+		h2 {
+			font-size: 25px;
+			line-height: 30px;
+		}
+	}
+	
+	/******************/
+	
+	.home-columns {
+		.column {
+			width: 306px;
+			h3 {
+				font-size: 18px;
+				line-height: 25px;
+			}
+			ul {
+				li:before {
+					top: 0;
+				}
+			}
+		}
+	}
+	
+	/******************/
+	
+	.home-account {
+		.text {
+			h2 {
+				font-size: 20px;
+				line-height: 25px;
+				margin: 0 75px 15px 0;
+			}
+		}
+		.account {
+			padding: 30px 0 0;
+			li {
+				a {
+					padding: 12px 0;
+					font-size: 15px;
+				}
+			}
+		}
+	}
+	
+	/* Forms *******************************************************************/
+	
+	.content {
+		form {
+			.columns-2, 
+			.columns-3 {
+				margin: 0 -20px 0 0;
+				h2, 
+				p {
+					margin: 0 20px 15px 0;
+				}
+			}
+			.columns-2 {
+				h2, 
+				p {
+					@include calc(width, '50% - 20px');
+				}
+			}
+			.columns-3 {
+				h2, 
+				p {
+					@include calc(width, '33.33333% - 20px');
+				}
+			}
+		}
+	}
+	
+	/* Events *******************************************************************/
+	
+	.content {
+		ul.events {
+			margin: 0 -20px 20px 0;
+			li {
+				width: 306px;
+				padding: 12px 20px 8px 105px;
+				margin: 0 20px 20px 0;
+				.date {
+					.day {
+						padding: 10px 5px 0;
+						font-size: 45px;
+						line-height: 52px;
+					}
+				}
+				.info {
+					.title {
+						max-height: 40px;
+						font-size: 16px;
+						line-height: 20px;
+					}
+				}
+			}
+		}
+	}
+	
+	/* FAQs *******************************************************************/
+	
+	.faqs {
+		.col-1, 
+		.col-2 {
+			width: 475px;
+			.faq {
+				h2.question {
+					a {
+						padding: 18px 40px 15px 20px;
+						font-size: 15px;
+						line-height: 20px;
+					}
+					a:after {
+						top: 22px;
+						right: 16px;
+					}
+				}
+			}
+		}
+	}
+	
+	/* Contact *******************************************************************/
+	
+	.map {
+		height: 370px;
+	}
+	
+	/* Log in form *******************************************************************/
+	
+	.content {
+		.sidebar {
+			form {
+				margin: 0 0 30px;
+				padding: 34px 24px;
+			}
+		}
+	}
+	
+	/* Member dashboard *******************************************************************/
+	
+	.content {
+		.dashboard-header {
+			padding: 0 300px 20px 0;
+			a {
+				padding: 14px 0;
+				font-size: 15px;
+				margin: -12px 0 0;
+			}
+		}
+	}
+	
+	/* Tabs *******************************************************************/
+	
+	.content {
+		ul.tabs {
+			li {
+				a {
+					font-size: 15px;
+					line-height: 20px;
+				}
+			}
+		}
+	}
+	
+	/* Judge dashboard *******************************************************************/
+	
+	.content {
+		.judge-dashboard {
+			.judge-entry-table {
+				tr {
+					td {
+						.stars {
+							margin: -4px 10px 0 0;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	/* View / Judge entries *******************************************************************/
+	
+	.content {
+		.judge-score {
+			.update-score {
+				padding: 22px 25px 18px;
+				width: 632px;
+				min-height: 160px;
+				.score-details {
+					min-height: 78px;
+					padding: 6px 0 0 110px;
+					margin: 0 0 14px;
+					h3 {
+						font-size: 24px;
+						line-height: 28px;
+						margin: 0 0 6px;
+						.stars {
+							width: 125px;
+							height: 25px;
+							margin: 0 0 0 10px;
+						}
+					}
+					.number {
+						width: 90px;
+						height: 78px;
+						padding: 16px 0 0;
+						font-size: 42px;
+						line-height: 48px;
+					}
+					ul {
+						li {
+							margin: 0 8px 0 0;
+						}
+					}
+				}
+				.score-bar {
+					padding: 12px 15px;
+				}
+			}
+			.banner {
+				width: 306px;
+				height: 160px;
+				.title {
+					top: 34px;
+					font-size: 16px;
+					line-height: 20px;
+				}
+			}
+		}
+	}
+	
+	/* Pay Offline *******************************************************************/
+	
+	.content {
+		.payment-details {
+			padding: 28px 24px 10px;
+		}
+	}
+	
+	/* Review / Winners *******************************************************************/
+	
+	.content {
+		form.winners-state {
+			margin: 0 0 25px;
+		}
+		.review, 
+		.winners {
+			.category {
+				.intro {
+					padding: 0 0 45px;
+				}
+				.intro.sponsored {
+					padding: 0 330px 45px 0;
+					.sponsor {
+						width: 300px;
+						height: 90px;
+						margin: -70px 0 0;
+						img {
+							max-width: 180px;
+							max-height: 90px;
+						}
+					}
+				}
+				ol {
+					li {
+						.image {
+							height: 200px;
+							img {
+								max-height: 200px;
+							}
+						}
+						.logo {
+							height: 170px;
+							img {
+								max-width: 240px;
+								max-height: 90px;
+							}
+						}
+						.title {
+							padding: 4px 0 0 92px;
+							.award {
+								width: 76px;
+								height: 70px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+		
+	/* Banners *******************************************************************/
+	
+	.banners, 
+	.content .banners {
+		li {
+			a {
+				height: 160px;
+				.title {
+					top: 34px;
+					font-size: 16px;
+					line-height: 20px;
+				}
+			}
+		}
+	}
+	
+	/******************/
+	
+	.content .banners.side {
+		margin: 0;
+		li {
+			width: 306px;
+		}
+	}
+	
+	/******************/
+	
+	.banners.bottom {
+		margin: 0 -10px 80px;
+		li {
+			padding: 0 10px;
+		}
+	}
+
+}
